@@ -1,12 +1,33 @@
-:root {
-  box-sizing: border-box;
-  font-size: 16px;
-}
-* {
-  padding: 0;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf6e3;
   margin: 0;
-  box-sizing: inherit;
+  padding: 0;
 }
-header { background-color: #f0f0f0; padding: 20px; text-align: center; }
-main { padding: 20px; font-family: 'Sixtyfour Convergence', sans-serif; }
-footer { background-color: #ccc; padding: 10px; text-align: center; }
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.character {
+  display: inline-block;
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.character img {
+  width: 100%;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 14px;
+  min-height: 60px;
+  color: #444;
+}
